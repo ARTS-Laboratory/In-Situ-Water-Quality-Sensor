@@ -1,6 +1,0 @@
-Connector bottom cap
-Connector top cap
-Sensor package case
-solar connection
-solar wing
-turbidity case

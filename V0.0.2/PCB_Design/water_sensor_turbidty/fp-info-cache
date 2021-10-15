@@ -1,4 +1,4 @@
-19227490492231943
+19224217920685558
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83031,8 +83031,8 @@ CR1025
 
 
 0
-3
-3
+2
+2
 Water_sensor
 DS3231M
 
@@ -83040,13 +83040,6 @@ DS3231M
 0
 5
 5
-Water_sensor
-MicroSD.V2
-
-
-0
-6
-6
 Water_sensor
 MicroSD_adaptor
 
@@ -83082,10 +83075,3 @@ TDS_meter
 0
 3
 3
-Water_sensor
-battery
-
-
-0
-2
-2
