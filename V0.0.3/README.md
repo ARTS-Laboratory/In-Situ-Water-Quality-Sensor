@@ -9,7 +9,7 @@
 1. Solar Connection
 
 ## PCB Design
-1. pH sensor on mezzanine board 
+1. pH sensor reverse engineered onto mezzanine board
 1. Real-time clock on PCB
 1. MicroSD adapter for data collection
 1. Battery slot for powering the PCB
