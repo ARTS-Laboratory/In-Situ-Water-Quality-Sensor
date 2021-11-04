@@ -27,13 +27,13 @@ $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 611E1541
-P 6400 3200
-F 0 "#PWR08" H 6400 2950 50  0001 C CNN
-F 1 "GND" H 6405 3027 50  0000 C CNN
-F 2 "" H 6400 3200 50  0001 C CNN
-F 3 "" H 6400 3200 50  0001 C CNN
-	1    6400 3200
-	1    0    0    -1  
+P 6400 2300
+F 0 "#PWR08" H 6400 2050 50  0001 C CNN
+F 1 "GND" H 6405 2127 50  0000 C CNN
+F 2 "" H 6400 2300 50  0001 C CNN
+F 3 "" H 6400 2300 50  0001 C CNN
+	1    6400 2300
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR04
@@ -119,7 +119,7 @@ L Device:R R4
 U 1 1 612091F6
 P 4050 4750
 F 0 "R4" H 4120 4796 50  0000 L CNN
-F 1 "R" H 4120 4705 50  0000 L CNN
+F 1 "4.7K" H 4120 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 3980 4750 50  0001 C CNN
 F 3 "~" H 4050 4750 50  0001 C CNN
 	1    4050 4750
@@ -182,8 +182,6 @@ Wire Wire Line
 	6200 4950 5700 4950
 Connection ~ 2750 5050
 Wire Wire Line
-	6500 3200 6500 4550
-Wire Wire Line
 	3350 3450 5300 3450
 Wire Wire Line
 	5300 3450 5300 3550
@@ -192,8 +190,6 @@ Wire Wire Line
 Connection ~ 5300 3450
 Wire Wire Line
 	5300 3450 6150 3450
-Wire Wire Line
-	6500 4550 5900 4550
 Wire Wire Line
 	4600 6750 4600 5050
 $Comp
@@ -208,11 +204,7 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5200 4550 50
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 3200 6600 4650
-Wire Wire Line
 	4550 2350 4050 2350
-Wire Wire Line
-	4550 2350 4550 4350
 Wire Wire Line
 	4650 2600 4050 2600
 Wire Wire Line
@@ -334,7 +326,7 @@ U 1 1 616763BC
 P 3650 4100
 F 0 "U2" H 4228 4063 50  0000 L CNN
 F 1 "CR1025" H 4228 3972 50  0000 L CNN
-F 2 "Water_sensor:CR1025" H 3650 4300 50  0001 C CNN
+F 2 "Water_sensor:CR1025" H 3650 4300 50  0000 C CNN
 F 3 "" H 3650 4300 50  0001 C CNN
 	1    3650 4100
 	1    0    0    -1  
@@ -350,19 +342,6 @@ F 3 "" H 4150 5700 50  0001 C CNN
 	1    4150 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Misc:Phsensor U6
-U 1 1 61679731
-P 6500 2850
-F 0 "U6" H 6728 2738 50  0000 L CNN
-F 1 "Phsensor" H 6728 2647 50  0000 L CNN
-F 2 "Water_sensor:PH_meter" H 6500 2850 50  0001 C CNN
-F 3 "" H 6500 2850 50  0001 C CNN
-	1    6500 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 4650 6600 4650
 Wire Wire Line
 	2750 4600 3350 4600
 Wire Wire Line
@@ -379,4 +358,56 @@ F 3 "~" H 2750 4750 50  0001 C CNN
 	1    2750 4750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Misc:Ph_embedded U6
+U 1 1 616A323C
+P 6550 2700
+F 0 "U6" H 6878 2746 50  0000 L CNN
+F 1 "Ph_embedded" H 6878 2655 50  0000 L CNN
+F 2 "Water_sensor:pH_embedded" H 6550 2700 50  0001 C CNN
+F 3 "" H 6550 2700 50  0001 C CNN
+	1    6550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2350 4550 4350
+Wire Wire Line
+	6400 3100 6400 4550
+Wire Wire Line
+	5900 4550 6400 4550
+$Comp
+L Misc:Probe_slot U7
+U 1 1 616B4324
+P 6700 3650
+F 0 "U7" H 6928 3729 50  0000 L CNN
+F 1 "Probe_slot" H 6928 3638 50  0000 L CNN
+F 2 "Water_sensor:Probe_rails" H 6700 3550 50  0001 C CNN
+F 3 "" H 6700 3550 50  0001 C CNN
+	1    6700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3100 6550 3400
+Wire Wire Line
+	6550 3400 6600 3400
+Wire Wire Line
+	6700 3100 6700 3400
+Wire Wire Line
+	6700 3400 6800 3400
+Wire Wire Line
+	6550 2300 6550 2050
+Wire Wire Line
+	6550 2050 4600 2050
+Wire Wire Line
+	4600 2050 4600 4550
+Wire Wire Line
+	4600 4550 4700 4550
+Wire Wire Line
+	4700 4650 4500 4650
+Wire Wire Line
+	4500 4650 4500 2000
+Wire Wire Line
+	4500 2000 6700 2000
+Wire Wire Line
+	6700 2000 6700 2300
 $EndSCHEMATC
