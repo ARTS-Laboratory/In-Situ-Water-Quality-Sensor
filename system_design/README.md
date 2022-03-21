@@ -1,6 +1,7 @@
 # In-Situ-Water-Quality-Sensor
 An in situ water quality sensor for monitoring water quality
 
+Mohamad, clean thie up. 
 
 ## V0.0.1
 1. Measures pH and turbidity 
@@ -20,7 +21,7 @@ An in situ water quality sensor for monitoring water quality
 
 
 
-
+## V 0.4 ????
 
 
 
