@@ -3,13 +3,18 @@ An in situ water quality sensor for monitoring water quality
 
 
 
-Kyle, can you add a figure here. 
+
+<p align="center">
+<img src="image.PNG" alt="drawing" width="700"/> <br> 
+The in situ water quality system under development.Kyle, can you add a figure here. 
+</p>
+<p align="center">
+</p>
 
 
 
-
-## [Hardware Design](hardware_design)
-The hardware design for the project.
+## [System Design](System_design)
+The system (hardware and software) design for the project.
 
 
 
