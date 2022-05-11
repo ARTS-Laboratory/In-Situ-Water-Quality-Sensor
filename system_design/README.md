@@ -21,12 +21,20 @@ Mohamad, clean thie up.
 
 
 
-## V 0.4 ????
-1. ???
+## V 0.4
+1. Includes part designs necessary to assmeble water sensor package.
+2. Missing probe protector.
+3. Missing apple air tag mount.
+4. Need to adjust hold positioning for Solar Flap Fixture.
 
 
-## V 0.4.5 ????
-1. ???
+## V 0.4.5 
+1. Includes 2 component holders. One for TDS and ph, and another for TDS, ph, and Turbidity.
+2. Includes a probe protector that prevent damage to the ends of the probes.
+3. Updated solar flaps to house solar flaps wired in parallel
+4. Solar Flap Fixture Cap updated to include a spot for apple air tag
+5. Updated Solar Flap Fixture. (position for holes moved, height extended, and inside tabs reduced from 4 to 2)
+6. Need to make these parts out of a solid plastic pieces and leak test the package.
 
 
 
