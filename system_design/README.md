@@ -29,7 +29,7 @@ Mohamad, clean thie up.
 
 
 ## V 0.4.5 
-1. Includes 2 component holders. One for TDS and ph, and another for TDS, ph, and Turbidity.
+1. Includes 2 component holders. One for TDS and pH, and another for TDS, pH, and Turbidity.
 2. Includes a probe protector that prevent damage to the ends of the probes.
 3. Updated solar flaps to house solar flaps wired in parallel
 4. Solar Flap Fixture Cap updated to include a spot for apple air tag
