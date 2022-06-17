@@ -39,7 +39,7 @@ Mohamad, clean thie up.
 
 
 ## V 0.5
-1.
+1. Includes The RTC
 
 
 
