@@ -39,7 +39,9 @@ Mohamad, clean thie up.
 
 
 ## V 0.5
-1. Includes The RTC
+1. Includes The RTC module.
+2. Includes micro SD Card module to save the collecting data from the sensors.
+3. Testing the water characteristics through the PH, TDS and Turbidity sensors.
 
 
 
