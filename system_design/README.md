@@ -38,10 +38,11 @@ Mohamad, clean thie up.
 
 
 
-## V 0.5
-1. Includes The RTC module.
-2. Includes micro SD Card module to save the collecting data from the sensors.
-3. Testing the water characteristics through the PH, TDS and Turbidity sensors.
+## Water Quality Sensor V 0.5
+1. PCB Design includes RTC Module, Micro SD Card Module.
+2. The PCB includes Footprints for the PH, TDS and Turbidity Sensors.
+3. Updated Arduino code to Measures the PH, TDS and Turbidity of the water.
+4. The code is controls the sampling time and save the collected data on a micro SD card.
 
 
 
