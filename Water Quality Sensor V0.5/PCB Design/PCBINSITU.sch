@@ -1,0 +1,321 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 6298E2CA
+P 6050 3750
+F 0 "A1" H 6050 2661 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 6050 2570 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 6050 3750 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 6050 3750 50  0001 C CNN
+	1    6050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L New_Library:SWITCH U3
+U 1 1 6298FABC
+P 5550 2250
+F 0 "U3" H 5728 2113 50  0000 L CNN
+F 1 "SWITCH" H 5728 2022 50  0000 L CNN
+F 2 "kicad_footprints:slide_switch" H 5550 2250 50  0001 C CNN
+F 3 "" H 5550 2250 50  0001 C CNN
+	1    5550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2550 5950 2550
+Wire Wire Line
+	5950 2550 5950 2750
+NoConn ~ 5450 2550
+$Comp
+L New_Library:BATTERY U2
+U 1 1 629927B4
+P 5000 2500
+F 0 "U2" H 4908 2575 50  0000 C CNN
+F 1 "BATTERY" H 4908 2484 50  0000 C CNN
+F 2 "kicad_footprints:Battery_Input" H 4850 2450 50  0001 C CNN
+F 3 "" H 4850 2450 50  0001 C CNN
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 629936A3
+P 5100 2650
+F 0 "#PWR02" H 5100 2400 50  0001 C CNN
+F 1 "GND" V 5105 2522 50  0000 R CNN
+F 2 "" H 5100 2650 50  0001 C CNN
+F 3 "" H 5100 2650 50  0001 C CNN
+	1    5100 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 2550 5550 2750
+Wire Wire Line
+	5550 2750 5100 2750
+$Comp
+L New_Library:PH U5
+U 1 1 62994B8A
+P 6950 3200
+F 0 "U5" H 7128 3063 50  0000 L CNN
+F 1 "PH" H 7128 2972 50  0000 L CNN
+F 2 "kicad_footprints:phraails" H 6950 3200 50  0001 C CNN
+F 3 "" H 6950 3200 50  0001 C CNN
+	1    6950 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3500 6850 3750
+Wire Wire Line
+	6850 3750 6550 3750
+$Comp
+L power:GND #PWR03
+U 1 1 62996D4E
+P 7050 3500
+F 0 "#PWR03" H 7050 3250 50  0001 C CNN
+F 1 "GND" H 7055 3327 50  0000 C CNN
+F 2 "" H 7050 3500 50  0001 C CNN
+F 3 "" H 7050 3500 50  0001 C CNN
+	1    7050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3500 6950 3750
+Wire Wire Line
+	6950 3750 7300 3750
+$Comp
+L New_Library:TDS U6
+U 1 1 62998311
+P 7600 3200
+F 0 "U6" H 7778 3063 50  0000 L CNN
+F 1 "TDS" H 7778 2972 50  0000 L CNN
+F 2 "kicad_footprints:sensor_rails" H 7600 3200 50  0001 C CNN
+F 3 "" H 7600 3200 50  0001 C CNN
+	1    7600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3500 7500 3850
+Wire Wire Line
+	7500 3850 6550 3850
+Wire Wire Line
+	7600 3500 7600 3750
+Wire Wire Line
+	7600 3750 7950 3750
+Wire Wire Line
+	7950 3750 7950 2650
+$Comp
+L power:GND #PWR04
+U 1 1 6299963A
+P 7700 3500
+F 0 "#PWR04" H 7700 3250 50  0001 C CNN
+F 1 "GND" H 7705 3327 50  0000 C CNN
+F 2 "" H 7700 3500 50  0001 C CNN
+F 3 "" H 7700 3500 50  0001 C CNN
+	1    7700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L New_Library:TURBIDITY U4
+U 1 1 6299C203
+P 6900 4300
+F 0 "U4" H 7178 4101 50  0000 L CNN
+F 1 "TURBIDITY" H 7178 4010 50  0000 L CNN
+F 2 "kicad_footprints:turbidity_rails" H 7050 4300 50  0001 C CNN
+F 3 "" H 7050 4300 50  0001 C CNN
+	1    6900 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4450 6550 4450
+Wire Wire Line
+	6250 2550 6250 2650
+Connection ~ 6250 2650
+Wire Wire Line
+	6250 2650 7300 2650
+Wire Wire Line
+	6250 2650 6250 2750
+Wire Wire Line
+	7300 3750 7300 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	7300 2650 7950 2650
+$Comp
+L New_Library:SD U1
+U 1 1 629A42A1
+P 4150 4900
+F 0 "U1" H 4383 5015 50  0000 C CNN
+F 1 "SD" H 4383 4924 50  0000 C CNN
+F 2 "PCBINSITU:SD" H 4350 4900 50  0001 C CNN
+F 3 "" H 4350 4900 50  0001 C CNN
+	1    4150 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 4500 4700 4150
+Wire Wire Line
+	4700 4150 5550 4150
+Wire Wire Line
+	4600 4500 4600 4250
+Wire Wire Line
+	4600 4250 5550 4250
+Wire Wire Line
+	4500 4500 4500 4450
+Wire Wire Line
+	4500 4450 5550 4450
+Wire Wire Line
+	4400 4500 4400 4350
+Wire Wire Line
+	4400 4350 5550 4350
+Wire Wire Line
+	4800 4500 5100 4500
+$Comp
+L power:GND #PWR01
+U 1 1 629B5DF2
+P 4300 4500
+F 0 "#PWR01" H 4300 4250 50  0001 C CNN
+F 1 "GND" H 4305 4327 50  0000 C CNN
+F 2 "" H 4300 4500 50  0001 C CNN
+F 3 "" H 4300 4500 50  0001 C CNN
+	1    4300 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 2450 6150 2750
+$Comp
+L New_Library:RTC U7
+U 1 1 629BB9D8
+P 8400 3550
+F 0 "U7" V 8465 3117 50  0000 C CNN
+F 1 "RTC" V 8374 3117 50  0000 C CNN
+F 2 "kicad_footprints:SD Module" H 7950 3350 50  0001 C CNN
+F 3 "" H 7950 3350 50  0001 C CNN
+	1    8400 3550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7700 4150
+NoConn ~ 7800 4150
+Wire Wire Line
+	5100 4500 5100 5750
+Wire Wire Line
+	9050 2450 9050 5750
+Wire Wire Line
+	5100 5750 9050 5750
+Wire Wire Line
+	6150 2450 9050 2450
+Wire Wire Line
+	8650 2550 8650 5000
+Wire Wire Line
+	6250 2550 8550 2550
+Wire Wire Line
+	7900 4150 7900 4250
+Wire Wire Line
+	7900 4250 6550 4250
+Wire Wire Line
+	8000 4150 8000 4350
+Wire Wire Line
+	8000 4350 7100 4350
+Wire Wire Line
+	7100 4350 7100 4150
+Wire Wire Line
+	7100 4150 6550 4150
+Wire Wire Line
+	8100 4150 8100 4450
+Wire Wire Line
+	8100 4450 8550 4450
+Wire Wire Line
+	8550 4450 8550 2550
+Connection ~ 8550 2550
+Wire Wire Line
+	8550 2550 8650 2550
+$Comp
+L power:GND #PWR05
+U 1 1 629D17CA
+P 8200 4150
+F 0 "#PWR05" H 8200 3900 50  0001 C CNN
+F 1 "GND" H 8205 3977 50  0000 C CNN
+F 2 "" H 8200 4150 50  0001 C CNN
+F 3 "" H 8200 4150 50  0001 C CNN
+	1    8200 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6550 3150
+NoConn ~ 6550 3250
+NoConn ~ 6550 3550
+NoConn ~ 6550 3950
+NoConn ~ 6550 4050
+NoConn ~ 6550 4350
+NoConn ~ 5550 4050
+NoConn ~ 5550 3950
+NoConn ~ 5550 3850
+NoConn ~ 5550 3750
+NoConn ~ 5550 3650
+NoConn ~ 5550 3550
+NoConn ~ 5550 3450
+NoConn ~ 5550 3350
+NoConn ~ 5550 3250
+NoConn ~ 5550 3150
+$Comp
+L power:GND #PWR0101
+U 1 1 629DBEBB
+P 6100 5100
+F 0 "#PWR0101" H 6100 4850 50  0001 C CNN
+F 1 "GND" H 6105 4927 50  0000 C CNN
+F 2 "" H 6100 5100 50  0001 C CNN
+F 3 "" H 6100 5100 50  0001 C CNN
+	1    6100 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 5100 6100 5050
+Wire Wire Line
+	6100 5050 6050 5050
+Wire Wire Line
+	6050 5050 6050 4750
+Wire Wire Line
+	6100 5050 6150 5050
+Wire Wire Line
+	6150 5050 6150 4750
+Connection ~ 6100 5050
+$Comp
+L power:GND #PWR0102
+U 1 1 629DED46
+P 6900 4650
+F 0 "#PWR0102" H 6900 4400 50  0001 C CNN
+F 1 "GND" V 6905 4522 50  0000 R CNN
+F 2 "" H 6900 4650 50  0001 C CNN
+F 3 "" H 6900 4650 50  0001 C CNN
+	1    6900 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 4550 6500 5000
+Wire Wire Line
+	6500 4550 6900 4550
+Wire Wire Line
+	6500 5000 8650 5000
+$Comp
+L 74xx_IEEE:74HC237 U8
+U 1 1 629EDCE2
+P 4400 3350
+F 0 "U8" H 4400 3866 50  0000 C CNN
+F 1 "74HC237" H 4400 3775 50  0000 C CNN
+F 2 "kicad_footprints:uofsc_logo_0_75in" H 4400 3350 50  0001 C CNN
+F 3 "" H 4400 3350 50  0001 C CNN
+	1    4400 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
