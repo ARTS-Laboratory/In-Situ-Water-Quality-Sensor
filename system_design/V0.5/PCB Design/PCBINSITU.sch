@@ -25,7 +25,7 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 6050 3750 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L New_Library:SWITCH U3
+L PCBINSITU-rescue:SWITCH-New_Library U3
 U 1 1 6298FABC
 P 5550 2250
 F 0 "U3" H 5728 2113 50  0000 L CNN
@@ -41,7 +41,7 @@ Wire Wire Line
 	5950 2550 5950 2750
 NoConn ~ 5450 2550
 $Comp
-L New_Library:BATTERY U2
+L PCBINSITU-rescue:BATTERY-New_Library U2
 U 1 1 629927B4
 P 5000 2500
 F 0 "U2" H 4908 2575 50  0000 C CNN
@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2750 5100 2750
 $Comp
-L New_Library:PH U5
+L PCBINSITU-rescue:PH-New_Library U5
 U 1 1 62994B8A
 P 6950 3200
 F 0 "U5" H 7128 3063 50  0000 L CNN
@@ -97,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 3750 7300 3750
 $Comp
-L New_Library:TDS U6
+L PCBINSITU-rescue:TDS-New_Library U6
 U 1 1 62998311
 P 7600 3200
 F 0 "U6" H 7778 3063 50  0000 L CNN
@@ -129,7 +129,7 @@ F 3 "" H 7700 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L New_Library:TURBIDITY U4
+L PCBINSITU-rescue:TURBIDITY-New_Library U4
 U 1 1 6299C203
 P 6900 4300
 F 0 "U4" H 7178 4101 50  0000 L CNN
@@ -154,7 +154,7 @@ Connection ~ 7300 2650
 Wire Wire Line
 	7300 2650 7950 2650
 $Comp
-L New_Library:SD U1
+L PCBINSITU-rescue:SD-New_Library U1
 U 1 1 629A42A1
 P 4150 4900
 F 0 "U1" H 4383 5015 50  0000 C CNN
@@ -196,7 +196,7 @@ $EndComp
 Wire Wire Line
 	6150 2450 6150 2750
 $Comp
-L New_Library:RTC U7
+L PCBINSITU-rescue:RTC-New_Library U7
 U 1 1 629BB9D8
 P 8400 3550
 F 0 "U7" V 8465 3117 50  0000 C CNN

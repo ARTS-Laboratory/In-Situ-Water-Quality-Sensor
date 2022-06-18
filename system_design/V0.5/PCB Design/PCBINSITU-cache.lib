@@ -78,11 +78,11 @@ X D6 9 -500 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# New_Library_BATTERY
+# PCBINSITU-rescue_BATTERY-New_Library
 #
-DEF New_Library_BATTERY U 0 40 Y Y 1 F N
+DEF PCBINSITU-rescue_BATTERY-New_Library U 0 40 Y Y 1 F N
 F0 "U" -150 -50 50 H V C CNN
-F1 "New_Library_BATTERY" -150 -50 50 H V C CNN
+F1 "PCBINSITU-rescue_BATTERY-New_Library" -150 -50 50 H V C CNN
 F2 "" -150 -50 50 H I C CNN
 F3 "" -150 -50 50 H I C CNN
 DRAW
@@ -92,11 +92,11 @@ X GND 2 100 -150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# New_Library_PH
+# PCBINSITU-rescue_PH-New_Library
 #
-DEF New_Library_PH U 0 40 Y Y 1 F N
+DEF PCBINSITU-rescue_PH-New_Library U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "New_Library_PH" 0 0 50 H V C CNN
+F1 "PCBINSITU-rescue_PH-New_Library" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -107,11 +107,11 @@ X - 3 100 -300 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# New_Library_RTC
+# PCBINSITU-rescue_RTC-New_Library
 #
-DEF New_Library_RTC U 0 40 Y Y 1 F N
+DEF PCBINSITU-rescue_RTC-New_Library U 0 40 Y Y 1 F N
 F0 "U" -450 -200 50 H V C CNN
-F1 "New_Library_RTC" -450 -200 50 H V C CNN
+F1 "PCBINSITU-rescue_RTC-New_Library" -450 -200 50 H V C CNN
 F2 "" -450 -200 50 H I C CNN
 F3 "" -450 -200 50 H I C CNN
 DRAW
@@ -125,11 +125,11 @@ X GND 6 -200 -600 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# New_Library_SD
+# PCBINSITU-rescue_SD-New_Library
 #
-DEF New_Library_SD U 0 40 Y Y 1 F N
+DEF PCBINSITU-rescue_SD-New_Library U 0 40 Y Y 1 F N
 F0 "U" 200 0 50 H V C CNN
-F1 "New_Library_SD" 200 0 50 H V C CNN
+F1 "PCBINSITU-rescue_SD-New_Library" 200 0 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 DRAW
@@ -143,11 +143,11 @@ X GND 6 400 -150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# New_Library_SWITCH
+# PCBINSITU-rescue_SWITCH-New_Library
 #
-DEF New_Library_SWITCH U 0 40 Y Y 1 F N
+DEF PCBINSITU-rescue_SWITCH-New_Library U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "New_Library_SWITCH" 0 0 50 H V C CNN
+F1 "PCBINSITU-rescue_SWITCH-New_Library" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -158,11 +158,11 @@ X PD 3 100 -300 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# New_Library_TDS
+# PCBINSITU-rescue_TDS-New_Library
 #
-DEF New_Library_TDS U 0 40 Y Y 1 F N
+DEF PCBINSITU-rescue_TDS-New_Library U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "New_Library_TDS" 0 0 50 H V C CNN
+F1 "PCBINSITU-rescue_TDS-New_Library" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -173,11 +173,11 @@ X - 3 100 -300 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# New_Library_TURBIDITY
+# PCBINSITU-rescue_TURBIDITY-New_Library
 #
-DEF New_Library_TURBIDITY U 0 40 Y Y 1 F N
+DEF PCBINSITU-rescue_TURBIDITY-New_Library U 0 40 Y Y 1 F N
 F0 "U" 150 0 50 H V C CNN
-F1 "New_Library_TURBIDITY" 150 0 50 H V C CNN
+F1 "PCBINSITU-rescue_TURBIDITY-New_Library" 150 0 50 H V C CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 DRAW
