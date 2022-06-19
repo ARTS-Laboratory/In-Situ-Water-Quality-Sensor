@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name PCBINSITU)(type KiCad)(uri ${KIPRJMOD}/PCBINSITU.pretty)(options "")(descr ""))
-)
