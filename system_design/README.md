@@ -21,7 +21,7 @@ Mohamad, clean thie up.
 
 
 
-## V 0.4
+## V 0.4.0
 1. Includes part designs necessary to assmeble water sensor package.
 2. Missing probe protector.
 3. Missing apple air tag mount.
