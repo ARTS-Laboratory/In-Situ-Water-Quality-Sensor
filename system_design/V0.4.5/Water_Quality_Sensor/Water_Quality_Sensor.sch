@@ -302,18 +302,5 @@ NoConn ~ 5500 3600
 NoConn ~ 5500 3700
 NoConn ~ 5500 3800
 NoConn ~ 5500 3900
-$Comp
-L Device:R R1
-U 1 1 62B27E92
-P 4750 3400
-F 0 "R1" V 4543 3400 50  0000 C CNN
-F 1 "R" V 4634 3400 50  0000 C CNN
-F 2 "Water_Quality_Sensor:uofsc_logo_0_75in" V 4680 3400 50  0001 C CNN
-F 3 "~" H 4750 3400 50  0001 C CNN
-	1    4750 3400
-	0    1    1    0   
-$EndComp
-NoConn ~ 4900 3400
-NoConn ~ 4600 3400
 NoConn ~ 6500 4200
 $EndSCHEMATC
