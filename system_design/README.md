@@ -38,6 +38,9 @@ An in situ water quality sensor for monitoring water quality
 9. Updated Arduino code to Measures the PH, TDS and Turbidity of the water.
 10. The code controls the sampling time and save the collected data on a micro SD card.
 
+## V 0.4.5 
+1. These are general updates and a major reorganization all the files in V0.4.5.
+1. Includes 2 component holders. One for TDS and pH, and another for TDS, pH, and Turbidity.
 
 
 
