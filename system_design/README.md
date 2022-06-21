@@ -35,14 +35,11 @@ Mohamad, clean thie up.
 4. Solar Flap Fixture Cap updated to include a spot for apple air tag
 5. Updated Solar Flap Fixture. (position for holes moved, height extended, and inside tabs reduced from 4 to 2)
 6. Need to make these parts out of a solid plastic pieces and leak test the package.
+7. PCB Design includes RTC Module, Micro SD Card Module.
+8. The PCB includes Footprints for the PH, TDS and Turbidity Sensors.
+9. Updated Arduino code to Measures the PH, TDS and Turbidity of the water.
+10. The code controls the sampling time and save the collected data on a micro SD card.
 
-
-
-## Water Quality Sensor V 0.5
-1. PCB Design includes RTC Module, Micro SD Card Module.
-2. The PCB includes Footprints for the PH, TDS and Turbidity Sensors.
-3. Updated Arduino code to Measures the PH, TDS and Turbidity of the water.
-4. The code is controls the sampling time and save the collected data on a micro SD card.
 
 
 
