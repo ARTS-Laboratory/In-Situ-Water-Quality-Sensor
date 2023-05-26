@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name water_sensor)(type Legacy)(uri ${KIPRJMOD}/water_sensor.lib)(options "")(descr ""))
-)
