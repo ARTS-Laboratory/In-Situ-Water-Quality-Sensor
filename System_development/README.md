@@ -1,4 +1,4 @@
-# In-Situ-Water-Quality-Sensor
+# System Development for the In Situ Water Quality Sensor
 An in situ water quality sensor for monitoring water quality
 
 ## V0.1
