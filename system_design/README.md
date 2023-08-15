@@ -42,6 +42,7 @@ An in situ water quality sensor for monitoring water quality
 1. These are general updates and a major reorganization of all the files in V0.4.5.
 2. The updated PCB design includes footprints pH, Turbidity, TDS, and Temperature sensors.
 3. The Updated Arduino code.
+4. The Kriging Code
 
 
 
