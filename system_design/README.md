@@ -1,23 +1,36 @@
-# System Development for the In Situ Water Quality Sensor
-An in situ water quality sensor for monitoring water quality
-
-## V 0.4.6 
-1. This entails comprehensive updates and a significant reorganization of all the files in version V0.4.5.
-2. The enhanced PCB design now incorporates footprints for pH, Turbidity, TDS, Temperature sensors, and the DS3231M IC.
-3. The Revised Arduino code.
-4. The Kriging Algorithm implementation using MATLAB.
-5. The addition of CAD modeling for the inner tray that holds the electronic components.
+# in-Situ Water Quality Sensor Package system design
+V0.4.6 system design includes:
 
 
 
-
+<p align="center">
+<img src="media/Flowchart.png" alt="drawing" width="600"/>
+</p>
+<p align="center">
+Figure 1: Sensor package mission algorithm breakdown.
+</p>
 
 
 
 
 
+<p align="center">
+<img src="media/PCB.png" alt="drawing" width="600"/>
+</p>
+<p align="center">
+Figure 2: (a) Designed Footprints of the PCB, (b) The Front Side of the PCB, and
+ (c) Back Side of the PCB.
+</p>
 
 
+
+
+<p align="center">
+<img src="media/tray.png" alt="drawing" width="600"/>
+</p>
+<p align="center">
+Figure 3: The tray that holds the sensor package's internal components.
+</p>
 
 
 
