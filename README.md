@@ -31,13 +31,13 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
 
 Cite this data as: 
 
-Mohamed Abdelwahab, Antonio Fonce, Joud Satme Austin R.J. Downey, and Daniel
+Mohamed Abdelwahab, Matthew Burnett, Antonio Fonce, Joud Satme Austin R.J. Downey, and Daniel
 Gibson. In-situ-water-quality-sensor, August 2023. URL: https://github.com/ARTSLaboratory/In-Situ-Water-Quality-Sensor
 
 #### Bibtex
 
 @Misc{Abdelwahab2023SituWaterQuality,  
-  author = {Mohamed Abdelwahab and Antonio Fonce and Joud Satme and Austin {R.J.} Downey and Daniel Gibson},  
+  author = {Mohamed Abdelwahab and Matthew Burnett and Antonio Fonce and Joud Satme and Austin {R.J.} Downey and Daniel Gibson},  
   month  = Aug,  
   title  = {In-Situ-Water-Quality-Sensor},  
   year   = {2023},  
