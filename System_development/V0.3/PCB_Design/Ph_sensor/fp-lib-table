@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Ph_sensor)(type KiCad)(uri ${KIPRJMOD}/Ph_sensor.pretty)(options "")(descr ""))
-)

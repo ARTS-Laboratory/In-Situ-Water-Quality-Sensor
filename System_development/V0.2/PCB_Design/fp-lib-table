@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Water_sensor)(type KiCad)(uri ${KIPRJMOD}/Water_sensor.pretty)(options "")(descr ""))
-)

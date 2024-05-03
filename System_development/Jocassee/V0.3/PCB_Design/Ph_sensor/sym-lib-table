@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Ph_sensor)(type Legacy)(uri ${KIPRJMOD}/Ph_sensor.lib)(options "")(descr ""))
+)
