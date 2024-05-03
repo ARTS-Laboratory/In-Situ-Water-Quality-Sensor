@@ -37,10 +37,8 @@ Gibson. In-situ-water-quality-sensor, August 2023. URL: https://github.com/ARTSL
 #### Bibtex
 
 @Misc{Abdelwahab2023SituWaterQuality,  
-  author = {Mohamed Abdelwahab and Matthew Burnett and Antonio Fonce and Joud Satme and Austin {R.J.} Downey and Daniel Gibson},  
-  month  = Aug,  
+  author = {Mohamed Abdelwahab and Matthew Burnett and Antonio Fonce and Joud Satme and Austin {R.J.} Downey},  
   title  = {In-Situ-Water-Quality-Sensor},  
-  year   = {2023},  
   groups = {High-Rate-SHM-Working-Group},  
   url    = {https://github.com/ARTS-Laboratory/In-Situ-Water-Quality-Sensor},  
 }  
