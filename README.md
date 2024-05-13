@@ -33,18 +33,13 @@ Cite this data as:
 
 #### Bibtex
 
-@Misc{ARTSLabSituWaterQuality,
-  author = {ARTS-Lab}, 
-  title  = {In-Situ-Water-Quality-Sensor}, 
-  
-  groups = {ARTS-Lab}, 
-   
-    url    = {https://github.com/ARTS-Laboratory/In-Situ-Water-Quality-Sensor}, 
-  
-} 
-
-
-
+@Misc{ARTSLabSituWaterQuality,    
+  author = {ARTS-Lab},  
+  howpublished = {GitHub},  
+  title  = {In-Situ-Water-Quality-Sensor},
+  groups = {ARTS-Lab},    
+  url    = {[https://github.com/ARTS-Laboratory/IoT-Water-Level-Sensor ](https://github.com/ARTS-Laboratory/In-Situ-Water-Quality-Sensor)},   
+}
 
 
 
