@@ -33,11 +33,14 @@ Cite this data as:
 
 #### Bibtex
 
-@Misc{ARTSLabSituWaterQuality, 
+@Misc{ARTSLabSituWaterQuality,
   author = {ARTS-Lab}, 
   title  = {In-Situ-Water-Quality-Sensor}, 
+  
   groups = {ARTS-Lab}, 
+  
   url    = {https://github.com/ARTS-Laboratory/In-Situ-Water-Quality-Sensor}, 
+  
 } 
 
 
