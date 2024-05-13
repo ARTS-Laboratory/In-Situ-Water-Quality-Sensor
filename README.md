@@ -31,17 +31,14 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
 
 Cite this data as: 
 
-Mohamed Abdelwahab, Matthew Burnett, Antonio Fonce, Joud Satme Austin R.J. Downey, and Daniel
-Gibson. In-situ-water-quality-sensor, August 2023. URL: https://github.com/ARTSLaboratory/In-Situ-Water-Quality-Sensor
-
 #### Bibtex
 
-@Misc{ARTSLabSituWaterQuality,
-  author = {ARTS-Lab},
-  title  = {In-Situ-Water-Quality-Sensor},
-  groups = {ARTS-Lab},
-  url    = {https://github.com/ARTS-Laboratory/In-Situ-Water-Quality-Sensor},
-}
+@Misc{ARTSLabSituWaterQuality, 
+  author = {ARTS-Lab}, 
+  title  = {In-Situ-Water-Quality-Sensor}, 
+  groups = {ARTS-Lab}, 
+  url    = {https://github.com/ARTS-Laboratory/In-Situ-Water-Quality-Sensor}, 
+} 
 
 
 
