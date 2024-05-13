@@ -38,8 +38,8 @@ Cite this data as:
   title  = {In-Situ-Water-Quality-Sensor}, 
   
   groups = {ARTS-Lab}, 
-  
-  url    = {https://github.com/ARTS-Laboratory/In-Situ-Water-Quality-Sensor}, 
+   
+    url    = {https://github.com/ARTS-Laboratory/In-Situ-Water-Quality-Sensor}, 
   
 } 
 
