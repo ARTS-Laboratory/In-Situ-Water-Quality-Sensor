@@ -36,7 +36,7 @@ Cite this data as:
 @Misc{ARTSLabSituWaterQuality,    
   author = {ARTS-Lab},  
   howpublished = {GitHub},  
-  title  = {In-Situ-Water-Quality-Sensor},
+  title  = {In-Situ-Water-Quality-Sensor},  
   groups = {ARTS-Lab},    
   url    = {https://github.com/ARTS-Laboratory/In-Situ-Water-Quality-Sensor},   
 }
