@@ -1,0 +1,12 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,#,Description
+A1,Arduino_Nano_v3.x,http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf,Module:Arduino_Nano,1,,1,
+BT1,Battery_Cell,~,WATER_SENSOR:battery_holder_10mm,1,,2,
+C1,C,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,,3,
+D1,LED,~,LED_THT:LED_D3.0mm,1,,4,
+"R1,R2",R,~,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,2,,5,
+U1,water_Battery,,WATER_SENSOR:Battery_Input,1,,6,
+U2,SD,,WATER_SENSOR:SD,1,,7,
+U3,switch,,WATER_SENSOR:grounded_switch,1,,8,
+"U4,U5,U7",Sensor,,-- mixed values --,3,,9,
+U6,DS3231M,http://datasheets.maximintegrated.com/en/ds/DS3231.pdf,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,1,,10,
+U8,Temp,,WATER_SENSOR:Temp.,1,,11,
