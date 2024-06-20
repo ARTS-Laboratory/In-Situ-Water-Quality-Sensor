@@ -16,6 +16,19 @@ System configuration as of August 2023 used for testing UAV deployments.
 <p align="center">
 </p>
 
+<p align="center">
+<img src="media/in_situ_sensor_June_2024.jpg" alt="drawing" width="700"/> <br> 
+System configuration as of June 2024 used for testing UAV deployments. 
+</p>
+<p align="center">
+</p>
+
+<p align="center">
+<img src="media/deploying_mech_in_situ_sensor_June_2024" alt="drawing" width="700"/> <br> 
+UAV deployment mechanism as of June 2024 
+</p>
+<p align="center">
+</p>
 
 ## [System Design](system_design)
 The system (hardware and software) design for the project.
