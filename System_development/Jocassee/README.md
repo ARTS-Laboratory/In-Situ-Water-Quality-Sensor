@@ -45,6 +45,15 @@ An in situ water quality sensor for monitoring water quality
 3. The Updated Arduino code.
 4. The Kriging Code
 
+## V 0.4.7
+1. The updated PCB design includes footprints for a GPS Module
+2. Updated Arduino Code to include GPS readings
+3. Added multiple designs for 3D printed Buoys
+5. Added a design for a cap that includes a spot to attach an antenna
+6. Included STL files and G-code for each buoy and cap.
+7. Added an assembly to better size 3D printed parts for the Chassis
+8. Added a Bill of Matirials
+
 
 
 
