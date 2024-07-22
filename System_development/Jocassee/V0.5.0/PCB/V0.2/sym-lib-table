@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Insitu_Water_Quality-cache")(type "Legacy")(uri "C:/Users/moham/Desktop/Insitu_Water_Quality/Insitu_Water_Quality-cache.lib")(options "")(descr ""))
+  (lib (name "water")(type "Legacy")(uri "C:/Users/moham/Desktop/WATER_SENSOR/water.lib")(options "")(descr ""))
+  (lib (name "WATER_SENSOR-cache")(type "Legacy")(uri "C:/Users/moham/Desktop/WATER_SENSOR/WATER_SENSOR-cache.lib")(options "")(descr ""))
+  (lib (name "V0.1-rescue")(type "KiCad")(uri "${KIPRJMOD}/V0.1-rescue.kicad_sym")(options "")(descr ""))
+)
