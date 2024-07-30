@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "WATER_SENSOR")(type "KiCad")(uri "C:/Users/moham/Desktop/WATER_SENSOR/WATER_SENSOR.pretty")(options "")(descr ""))
+)
