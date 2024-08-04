@@ -1,11 +1,11 @@
 # Sensor Package Variations  
-
+Sensor package variations are named after freshwater lakes in South Carolina. 
 
 ## Jocassee
-* Sensor package designed for data acquisition with onboard data storage. 
+* Sensor package designed for data acquisition with onboard data storage and wireless data transmission. 
 
 ## Marion 
-* Sensor package designed with wireless data transmission and edge AI capabilities.  
+* Sensor package designed with edge AI capabilities.  
 
 
 
