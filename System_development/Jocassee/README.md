@@ -54,6 +54,15 @@ An in situ water quality sensor for monitoring water quality
 7. Added an assembly to better size 3D printed parts for the Chassis
 8. Added a Bill of Matirials
 
+## V 0.6.0
+1. Updated PCB design including GPS, wireless module and latest compact signal conditioning boards for pH & TDS sensing.
+2. Includes an easily dettachable solar buoy for increased operational endurance.
+3. Includes waterproof connector for solar power input and battery charging from external power.
+4. Contains a BMS for effecient battery charging and load sharing.
+5. Features a capless design where O'ring is used to waterproof the top.
+6. Includes step files for every componentes used in sensor node.
+
+
 
 
 
