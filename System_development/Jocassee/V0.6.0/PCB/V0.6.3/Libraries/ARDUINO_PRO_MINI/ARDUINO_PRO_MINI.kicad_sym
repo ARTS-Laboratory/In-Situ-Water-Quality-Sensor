@@ -1,0 +1,327 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ARDUINO_PRO_MINI" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -12.7 31.75 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ARDUINO_PRO_MINI" (id 1) (at -12.7 -33.02 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "ARDUINO_PRO_MINI:MODULE_ARDUINO_PRO_MINI" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Arduino" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "N/A" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "N/A" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "Arduino Pro Mini" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nThis board was developed for applications and installations where space is premium and projects are made as permanent set ups. Small, available in 3.3 V and 5 V versions, powered by ATmega328P.\n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "SparkFun Electronics" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ARDUINO_PRO_MINI_0_0"
+      (rectangle (start -12.7 -30.48) (end 12.7 30.48)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at 17.78 0.0 180.0) (length 5.08)
+        (name "D2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -2.54 180.0) (length 5.08)
+        (name "D3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -5.08 180.0) (length 5.08)
+        (name "D4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -7.62 180.0) (length 5.08)
+        (name "D5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -10.16 180.0) (length 5.08)
+        (name "D6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -12.7 180.0) (length 5.08)
+        (name "D7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -15.24 180.0) (length 5.08)
+        (name "D8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 -17.78 180.0) (length 5.08)
+        (name "D9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -17.78 0) (length 5.08)
+        (name "D10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -15.24 0) (length 5.08)
+        (name "MOSI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -12.7 0) (length 5.08)
+        (name "MISO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -10.16 0) (length 5.08)
+        (name "SCK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 0.0 0) (length 5.08)
+        (name "A0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -2.54 0) (length 5.08)
+        (name "A1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -5.08 0) (length 5.08)
+        (name "A2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -7.62 0) (length 5.08)
+        (name "A3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -27.94 180.0) (length 5.08)
+        (name "GND_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -25.4 180.0) (length 5.08)
+        (name "GND_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 22.86 180.0) (length 5.08)
+        (name "RAW"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 17.78 7.62 180.0) (length 5.08)
+        (name "RST_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 2.54 0) (length 5.08)
+        (name "RST_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 2.54 180.0) (length 5.08)
+        (name "RXI_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 5.08 180.0) (length 5.08)
+        (name "TXO_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP7_12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 25.4 180.0) (length 5.08)
+        (name "VCC_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP6_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 15.24 0) (length 5.08)
+        (name "A7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -17.78 17.78 0) (length 5.08)
+        (name "A6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 10.16 0) (length 5.08)
+        (name "A4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 7.62 0) (length 5.08)
+        (name "A5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -22.86 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 -22.86 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 17.78 27.94 180.0) (length 5.08)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 12.7 180.0) (length 5.08)
+        (name "RXI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 15.24 180.0) (length 5.08)
+        (name "TXO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 17.78 17.78 180.0) (length 5.08)
+        (name "DTR"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

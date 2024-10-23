@@ -6883,7 +6883,7 @@
 				)
 			)
 		)
-		(property "Value" "BOB-12009"
+		(property "Value" "BOB-12009, level shifter"
 			(at 102.87 68.58 0)
 			(effects
 				(font
