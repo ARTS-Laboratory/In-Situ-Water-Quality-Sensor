@@ -5144,7 +5144,7 @@
 		)
 	)
 	(gr_text "Joud Satme"
-		(at 113.5 117.1 0)
+		(at 113.324878 118.39123 0)
 		(layer "F.SilkS")
 		(uuid "4ff9b773-b8f6-4be8-9946-c2efb55633e6")
 		(effects
@@ -5154,8 +5154,19 @@
 			)
 		)
 	)
+	(gr_text "Matthew Burnett"
+		(at 113 114 0)
+		(layer "F.SilkS")
+		(uuid "797c4edb-3e0c-4ca0-8202-ca8ffd789164")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+			)
+		)
+	)
 	(gr_text "In-Situ Water Quality Sensor"
-		(at 117.5 112.7 0)
+		(at 116.3 112.7 0)
 		(layer "F.SilkS")
 		(uuid "79d3d3ce-24ca-4eea-8c5c-e3c5d8f21c07")
 		(effects
@@ -5165,8 +5176,8 @@
 			)
 		)
 	)
-	(gr_text "V0.1\\"
-		(at 105.2 112.6 0)
+	(gr_text "V0.5.0\\"
+		(at 103.721423 112.584747 0)
 		(layer "F.SilkS")
 		(uuid "9dea27c2-052a-4984-8588-ba283438bb0f")
 		(effects
@@ -5177,7 +5188,7 @@
 		)
 	)
 	(gr_text "Antonio Fonce"
-		(at 112.6 115.6 0)
+		(at 112.424878 116.89123 0)
 		(layer "F.SilkS")
 		(uuid "a8a9565c-8a8f-448e-8c7b-7cd055bf1ec0")
 		(effects
@@ -5188,7 +5199,7 @@
 		)
 	)
 	(gr_text "Mohamed Abdelwahab"
-		(at 113.9 114.2 0)
+		(at 113.724878 115.49123 0)
 		(layer "F.SilkS")
 		(uuid "cf14f491-cf48-4ce8-8670-c148265cfe57")
 		(effects
