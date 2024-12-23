@@ -182,4 +182,3 @@ void logGPSData(char* gpsData) {
     Serial.println(F("Error opening gps_data.txt"));  // Print error message if file not opened
   }
 }
-
