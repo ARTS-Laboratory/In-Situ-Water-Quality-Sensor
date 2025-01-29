@@ -6062,6 +6062,166 @@
 		)
 		(uuid "ff54af42-771d-46da-b03a-78d3feb0f3b5")
 	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 87.376 151.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07f07c47-7906-499d-8e9f-2914d8a34c3d")
+	)
+	(text "A1"
+		(exclude_from_sim no)
+		(at 101.6 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2216bbd4-431d-47d7-ba81-4744682eb483")
+	)
+	(text "A2"
+		(exclude_from_sim no)
+		(at 101.6 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "256f8344-d108-48ed-afa4-159ff2114ba6")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 101.6 153.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3355bf72-1beb-489c-8f66-a8df719318b5")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 87.376 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36009c32-1975-4054-a765-db6406ecf959")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 87.376 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "707501cb-b8f7-437d-83e0-777949a3ab02")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 87.376 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "743a9a5f-2f87-4ed5-890e-466d4786f2a4")
+	)
+	(text "A0"
+		(exclude_from_sim no)
+		(at 101.6 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7884b60a-8265-42ed-b46a-4e964d83bafd")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 87.376 153.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fcda3df-52bc-4fe6-8eeb-c8fa4ca6b041")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 87.376 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97586b4d-f930-41a2-86c2-e19f0370d8db")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 87.376 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc96ce48-f59d-471a-abcb-005f9912d6c2")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 87.376 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cce733f8-e17c-422f-91c3-67da04f1a95c")
+	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 101.6 151.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df820be3-744c-429a-a542-b105ca9e4f13")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 101.6 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e81c4363-6410-4ef5-9561-7e42dd63bcea")
+	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 101.6 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e82cc6fd-67b5-4b15-bdd6-b868cd1efc34")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 101.6 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb544426-4e8a-48fb-8eec-1c0e920074ac")
+	)
 	(global_label "BAT+"
 		(shape input)
 		(at 264.16 39.37 0)
