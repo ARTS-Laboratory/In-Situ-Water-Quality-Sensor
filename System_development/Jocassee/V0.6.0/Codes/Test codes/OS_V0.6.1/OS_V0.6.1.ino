@@ -8,19 +8,36 @@
  300 Main St., Columbia, SC.
  */
 
+#include "system_sleep.h";
+
 #include "Lib_and_def.h";
 
 void setup() {
+  delay(3000);
   pinMode(P_En, OUTPUT);
   pinMode(Red_LED, OUTPUT);
   pinMode(Yellow_LED, OUTPUT);
   digitalWrite(P_En,LOW);
   digitalWrite(Red_LED,LOW);
   digitalWrite(Yellow_LED,LOW);
+  Serial.begin(115200);
 }
 
 #include "Functions.h";
 
 void loop() {
-
+  if(f_wdt != 1) {
+    return;
+  }
+  //check_bat_volt();
+  //get_gps_data();
+  power_peripheral(1);
+  read_pH_and_EC();
+  read_TRBDT();
+  read_temp();
+  //write2SD();
+  transmit();
+  power_peripheral(0);
+  
+  //enterSleep(5);
 }

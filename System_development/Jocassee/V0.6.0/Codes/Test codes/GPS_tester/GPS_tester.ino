@@ -14,7 +14,7 @@ Home
    $GPRMC sentences.  But with the TinyGPSCustom type, you can extract
    other NMEA fields, even from non-standard NMEA sentences.
 
-   It requires the use of SoftwareSerial, and assumes that you have a
+   It requires the use of SoftwareSerial, and aSerial1umes that you have a
    9600-baud serial GPS device hooked up on pins 4(RX) and 3(TX).
 */
 
@@ -22,7 +22,7 @@ static const uint32_t GPSBaud = 9600;
 
 // The TinyGPS++ object
 TinyGPSPlus gps;
-Serial1 ss;
+
 // The serial connection to the GPS device
 
 /*
@@ -45,7 +45,7 @@ TinyGPSCustom hdop(gps, "GNGLL", 3); // $GPGSA sentence, 16th element
 void setup()
 {
   Serial.begin(115200);
-  ss.begin(GPSBaud);
+  Serial1.begin(GPSBaud);
 
   Serial.println(F("UsingCustomFields.ino"));
   Serial.println(F("Demonstrating how to extract any NMEA field using TinyGPSCustom"));
@@ -60,8 +60,8 @@ void loop()
   Serial.print(F("\tLON=")); Serial.println(atof(hdop.value())/100,7);
   delay(100);
 
-  while (ss.available() > 0)
-    gps.encode(ss.read());
+  while (Serial1.available() > 0)
+    gps.encode(Serial1.read());
 
 
 

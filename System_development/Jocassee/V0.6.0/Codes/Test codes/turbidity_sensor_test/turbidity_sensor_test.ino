@@ -8,7 +8,7 @@
 // the setup routine runs once when you press reset:
 void setup() {
   // initialize serial communication at 9600 bits per second:
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(7,OUTPUT);
   pinMode(6,INPUT);
   digitalWrite(7,HIGH);
@@ -18,6 +18,7 @@ void setup() {
 void loop() {
   // read the input on analog pin 0:
   digitalWrite(7,HIGH);
-  Serial.println(analogRead(A7));
+
+  Serial.println(((-(analogRead(A7)*5.00)/1023.00)+3.71)/0.008);
   delay(200);
   }

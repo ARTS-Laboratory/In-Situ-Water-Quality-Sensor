@@ -1,6 +1,5 @@
 #include <Ezo_i2c.h> //include the EZO I2C library from https://github.com/Atlas-Scientific/Ezo_I2c_lib
-#include <Wire.h>    //include arduinos i2c library
-#include <sequencer2.h> //imports a 2 function sequencer 
+#include <Wire.h>    //include arduinos i2c library 
 #include <Ezo_i2c_util.h> //brings in common print statements
 
 Ezo_board PH = Ezo_board(99, "PH");       //create a PH circuit object, who's address is 99 and name is "PH"
@@ -13,6 +12,8 @@ char *SAL;                       //char pointer used in string parsing (the sens
 char *SG;                       //char pointer used in string parsing.
 
 void setup() {
+  pinMode(7,OUTPUT);
+  digitalWrite(7,HIGH);
   Wire.begin();                           //start the I2C
   Serial.begin(9600);                     //start the serial communication to the computer
   EC.send_cmd("o,tds,1");        //send command to enable TDS output
