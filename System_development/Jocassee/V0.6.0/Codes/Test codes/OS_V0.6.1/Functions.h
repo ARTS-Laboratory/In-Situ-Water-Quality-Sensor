@@ -28,14 +28,16 @@ void check_bat_volt(){
 }
 
 void read_pH_and_EC(){
-  Wire.begin(); 
-  
+  delay(500);
+  Wire.begin();
+  delay(500); 
   EC.send_read_cmd();
   delay(1000);
   EC.receive_read_cmd();
   eC=EC.get_last_received_reading(); 
   Serial.print(eC);
   Serial.print(" uS, ");
+
   PH.send_read_cmd(); 
   delay(1000);
   PH.receive_read_cmd();
@@ -74,19 +76,27 @@ void write2SD(){
     error_loop();
   }
 
-  myFile = SD.open("test.txt", FILE_WRITE);
+  myFile = SD.open("data_log.csv", FILE_WRITE);
 
   if (myFile) {
-    myFile.println("testing 1, 2, 3.");
-    // close the file:
+    myFile.print(v_bat);
+    myFile.print(",");
+    myFile.print(eC);
+    myFile.print(",");
+    myFile.print(pH);
+    myFile.print(",");
+    myFile.print(turbidity);
+    myFile.print(",");
+    myFile.println(temp);
     myFile.close();
     
   } else {
-    Serial.println("error opening test.txt");
+    Serial.println("error opening log file");
     error_loop();
   }
+}
 
-  // re-open the file for reading:
+void read_frm_SD(){
   myFile = SD.open("test.txt");
   if (myFile) {
     // read from the file until there's nothing else in it:
@@ -156,5 +166,4 @@ void get_gps_data(){
 
 void process_string(){
 
-  
 }

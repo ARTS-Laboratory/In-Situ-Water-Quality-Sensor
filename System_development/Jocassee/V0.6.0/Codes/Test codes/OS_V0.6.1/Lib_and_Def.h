@@ -1,4 +1,4 @@
-#define HDOP_threshold 1.2 //HDOP is the measure of circular error in GPS position, less than one is ideal for neo series.
+#define HDOP_threshold 1.5 //HDOP is the measure of circular error in GPS position, less than one is ideal.
 
 #define minimum_V_bat 7
 
@@ -46,10 +46,7 @@ uint8_t address[][6] = { "1Node", "2Node" };
 File myFile;
 
 //Declaring global variables
-float temp;
-float pH;
-float eC;
-float turbidity;
+float temp, pH, eC, turbidity;
 float GPS_HDOP=99.00;
 float v_bat=6;
 

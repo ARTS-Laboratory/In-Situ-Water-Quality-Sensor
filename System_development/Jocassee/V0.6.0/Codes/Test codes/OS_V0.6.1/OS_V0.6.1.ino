@@ -8,8 +8,6 @@
  300 Main St., Columbia, SC.
  */
 
-#include "system_sleep.h";
-
 #include "Lib_and_def.h";
 
 void setup() {
@@ -26,18 +24,16 @@ void setup() {
 #include "Functions.h";
 
 void loop() {
-  if(f_wdt != 1) {
-    return;
-  }
   //check_bat_volt();
   //get_gps_data();
   power_peripheral(1);
   read_pH_and_EC();
   read_TRBDT();
   read_temp();
-  //write2SD();
-  transmit();
+  write2SD();
+  //transmit();
   power_peripheral(0);
+
+  delay(2000);
   
-  //enterSleep(5);
 }

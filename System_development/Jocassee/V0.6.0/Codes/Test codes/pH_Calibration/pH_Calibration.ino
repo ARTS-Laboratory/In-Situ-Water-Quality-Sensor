@@ -47,10 +47,19 @@ void loop() {
       PH.receive_cmd(rcv_data, 32);
       Serial.print(rcv_data);Serial.println("Calibration Cleared");
     }
+    else if(a=='S'){
+      PH.send_cmd("Slope,?");
+      delay(300);
+      PH.receive_cmd(rcv_data, 32);
+      Serial.print(rcv_data);Serial.println("");
+    }
   }
   
   PH.send_read_cmd();
   delay(1000);
   PH.receive_cmd(rcv_data, 32);
   Serial.print(rcv_data);Serial.println("");
+
+
+
 }
