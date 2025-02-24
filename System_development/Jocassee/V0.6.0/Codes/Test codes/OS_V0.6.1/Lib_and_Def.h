@@ -1,4 +1,4 @@
-#define HDOP_threshold 1.5 //HDOP is the measure of circular error in GPS position, less than one is ideal.
+#define HDOP_threshold 1.2 //HDOP is the measure of circular error in GPS position, less than one is ideal.
 
 #define minimum_V_bat 7
 
@@ -47,7 +47,7 @@ File myFile;
 
 //Declaring global variables
 float temp, pH, eC, turbidity;
-float GPS_HDOP=99.00;
+//float GPS_HDOP=99.00;
 float v_bat=6;
 
 char GPS_payload[32];

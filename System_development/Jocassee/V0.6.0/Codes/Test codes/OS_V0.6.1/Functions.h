@@ -79,6 +79,18 @@ void write2SD(){
   myFile = SD.open("data_log.csv", FILE_WRITE);
 
   if (myFile) {
+    myFile.print(gps.hdop.hdop());
+    myFile.print(",");
+    myFile.print(gps.location.lat(), 6);
+    myFile.print(",");
+    myFile.print(gps.location.lng(), 6);
+    myFile.print(",");
+    
+    myFile.print(gps.date.month());myFile.print(F("/"));myFile.print(gps.date.day());myFile.print(F("/"));myFile.print(gps.date.year());
+    myFile.print(",");
+    myFile.print(gps.time.hour());myFile.print(F(":"));myFile.print(gps.time.minute());myFile.print(F(":"));myFile.print(gps.time.second());myFile.print(F(":"));
+    myFile.print(",");
+    
     myFile.print(v_bat);
     myFile.print(",");
     myFile.print(eC);
@@ -89,7 +101,7 @@ void write2SD(){
     myFile.print(",");
     myFile.println(temp);
     myFile.close();
-    
+    delay(300);
   } else {
     Serial.println("error opening log file");
     error_loop();
@@ -127,19 +139,19 @@ void transmit(){
 
 void get_gps_data(){
   Serial1.begin(9600);
-  while(GPS_HDOP > HDOP_threshold){ 
+  while(1){ 
     led(1,0);
-    delay(100);
+    //delay(100);
     while (Serial1.available() > 0 ){
       if (gps.encode(Serial1.read())){
-        if (gps.location.isValid() && gps.date.isValid()){ 
-          GPS_HDOP = gps.hdop.hdop();
-          Serial.print("L: ");
+        if (gps.location.isValid() && gps.date.isValid() && gps.time.isValid()){ 
+          /*Serial.print("L: ");
           Serial.print(gps.location.lat(), 6);
           Serial.print(",");
           Serial.print(gps.location.lng(), 6);
-          
-          Serial.print(" D: ");
+
+         
+          Serial.print(", D: ");
           Serial.print(gps.date.month());
           Serial.print(F("/"));
           Serial.print(gps.date.day());
@@ -154,12 +166,17 @@ void get_gps_data(){
             Serial.print(gps.time.minute());
             Serial.print(F(":"));
           if (gps.time.second() < 10) Serial.print(F("0"));
-            Serial.println(gps.time.second());
+            Serial.print(gps.time.second());*/
+
+          Serial.print(", HDOP:");
+          Serial.println(gps.hdop.hdop());
+          if(gps.hdop.hdop()<HDOP_threshold && gps.hdop.hdop()!=0 && gps.date.day()!=0 && gps.time.isUpdated()){
+            led(0,0);
+            return;
+         }
         }
       }    
     }
-    led(0,1);
-    delay(100);
   }
   led(0,0);
 }

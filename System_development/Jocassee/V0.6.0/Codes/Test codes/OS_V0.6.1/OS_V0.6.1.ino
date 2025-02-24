@@ -11,7 +11,7 @@
 #include "Lib_and_def.h";
 
 void setup() {
-  delay(3000);
+  //delay(3000);
   pinMode(P_En, OUTPUT);
   pinMode(Red_LED, OUTPUT);
   pinMode(Yellow_LED, OUTPUT);
@@ -22,10 +22,9 @@ void setup() {
 }
 
 #include "Functions.h";
-
 void loop() {
-  //check_bat_volt();
-  //get_gps_data();
+  check_bat_volt();
+  get_gps_data();
   power_peripheral(1);
   read_pH_and_EC();
   read_TRBDT();
@@ -34,6 +33,6 @@ void loop() {
   //transmit();
   power_peripheral(0);
 
-  delay(2000);
+  delay(1000);
   
 }

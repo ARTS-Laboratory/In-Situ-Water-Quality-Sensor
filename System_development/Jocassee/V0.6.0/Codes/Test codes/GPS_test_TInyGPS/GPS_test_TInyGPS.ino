@@ -7,21 +7,6 @@ void setup()
   Serial.begin(115200);
   Serial1.begin(9600);
 }
-
-void loop()
-{
-  // This sketch displays information every time a new sentence is correctly encoded.
-  while (Serial1.available() > 0)
-    if (gps.encode(Serial1.read()))
-      displayInfo();
-      
-  if (millis() > 5000 && gps.charsProcessed() < 10)
-  {
-    Serial.println(F("No GPS detected: check wiring."));
-    while(true);
-  }
-}
-
 void displayInfo()
 {
   Serial.print(F("Location: ")); 
@@ -72,4 +57,13 @@ void displayInfo()
   Serial.print(" ,HDOP: ");
   Serial.print(gps.hdop.hdop());
   Serial.println();
+}
+void loop()
+{
+  // This sketch displays information every time a new sentence is correctly encoded.
+  while (Serial1.available() > 0)
+    if (gps.encode(Serial1.read()))
+      displayInfo();
+      
+ 
 }
