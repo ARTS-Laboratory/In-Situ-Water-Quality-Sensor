@@ -18,7 +18,7 @@ void setup() {
   digitalWrite(P_En,LOW);
   digitalWrite(Red_LED,LOW);
   digitalWrite(Yellow_LED,LOW);
-  Serial.begin(115200);
+  //Serial.begin(115200);
 }
 
 #include "Functions.h";
@@ -30,7 +30,7 @@ void loop() {
   read_TRBDT();
   read_temp();
   write2SD();
-  //transmit();
+  transmit();
   power_peripheral(0);
 
   delay(1000);

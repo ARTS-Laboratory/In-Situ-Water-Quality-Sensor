@@ -44,6 +44,7 @@ void read_pH_and_EC(){
   pH=PH.get_last_received_reading(); 
   Serial.print(pH);
   Serial.print(" , ");
+  Wire.end();
 }
 
 
@@ -62,7 +63,7 @@ void read_temp(){
 
 
 void read_TRBDT(){
-  turbidity = ((-(analogRead(TRBDT_pin)*5.0)/1023.0)+3.7)/0.008;
+  turbidity = (((-(analogRead(TRBDT_pin)*5.0)/1023.0)+3.7)/0.008)-30;
   if(turbidity<0){ // due to to noise sometimes small negative values occur. 
     turbidity = 0;
   }
@@ -72,11 +73,11 @@ void read_TRBDT(){
 
 void write2SD(){
   if (!SD.begin(SD_CS)) {
-    Serial.println("initialization failed!");
+    Serial.println("SD initialization failed!");
     error_loop();
   }
 
-  myFile = SD.open("datalog.csv", FILE_WRITE);
+  myFile = SD.open("Data_log.csv", FILE_WRITE);
 
   if (myFile) {
 //    myFile.print(gps.hdop.hdop());
@@ -104,8 +105,10 @@ void write2SD(){
     delay(300);
   } else {
     Serial.println("error opening log file");
+    SD.end();
     error_loop();
   }
+  SD.end();
 }
 
 void read_frm_SD(){
@@ -135,6 +138,7 @@ void transmit(){
   radio.openReadingPipe(1, address[1]); 
   radio.stopListening();
   radio.write("Hello", sizeof(float));
+  
 }
 
 void get_gps_data(){
@@ -179,6 +183,7 @@ void get_gps_data(){
     }
   }
   led(0,0);
+  Serial1.end();
 }
 
 void process_string(){

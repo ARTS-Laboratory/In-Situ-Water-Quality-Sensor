@@ -12,9 +12,9 @@
 
 void setup() {
 
-  pinMode( LED_BUILTIN_TX, OUTPUT);    
-  digitalWrite( LED_BUILTIN_TX, HIGH); // turn off TX light
-  pinMode( LED_BUILTIN_RX, INPUT);     // turn off RX light
+  pinMode(LED_BUILTIN_TX, OUTPUT);    
+  digitalWrite(LED_BUILTIN_TX, HIGH); // turn off TX light
+  pinMode(LED_BUILTIN_RX, INPUT);     // turn off RX light
   
   //delay(3000);
   pinMode(P_En, OUTPUT);
@@ -23,21 +23,21 @@ void setup() {
   digitalWrite(P_En,LOW);
   digitalWrite(Red_LED,LOW);
   digitalWrite(Yellow_LED,LOW);
-  //Serial.begin(115200);
+  Serial.begin(115200);
 }
 
 #include "Functions.h";
 void loop() {
-  check_bat_volt();
+  //check_bat_volt();
   //get_gps_data();
   power_peripheral(1);
   read_pH_and_EC();
   read_TRBDT();
   read_temp();
-  write2SD();
+  //write2SD();
   //transmit();
   power_peripheral(0);
 
-  delay(6000);
+  delay(1000);
   
 }

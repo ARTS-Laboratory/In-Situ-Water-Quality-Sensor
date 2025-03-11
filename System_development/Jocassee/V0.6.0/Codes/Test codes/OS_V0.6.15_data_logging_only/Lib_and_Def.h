@@ -46,7 +46,8 @@ uint8_t address[][6] = { "1Node", "2Node" };
 File myFile;
 
 //Declaring global variables
-float temp, pH, eC, turbidity;
+float temp, pH, eC;
+int turbidity;
 //float GPS_HDOP=99.00;
 float v_bat=6;
 
