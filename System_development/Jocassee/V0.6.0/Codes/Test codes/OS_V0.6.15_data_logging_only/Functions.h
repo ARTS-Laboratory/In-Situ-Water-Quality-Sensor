@@ -63,7 +63,7 @@ void read_temp(){
 
 
 void read_TRBDT(){
-  turbidity = (((-(analogRead(TRBDT_pin)*5.0)/1023.0)+3.7)/0.008)-30;
+  turbidity = (((-(analogRead(TRBDT_pin)*5.0)/1023.0)+3.7)/0.008)-47;
   if(turbidity<0){ // due to to noise sometimes small negative values occur. 
     turbidity = 0;
   }
@@ -149,7 +149,7 @@ void get_gps_data(){
     while (Serial1.available() > 0 ){
       if (gps.encode(Serial1.read())){
         if (gps.location.isValid() && gps.date.isValid() && gps.time.isValid()){ 
-          /*Serial.print("L: ");
+          Serial.print("L: ");
           Serial.print(gps.location.lat(), 6);
           Serial.print(",");
           Serial.print(gps.location.lng(), 6);
@@ -170,7 +170,7 @@ void get_gps_data(){
             Serial.print(gps.time.minute());
             Serial.print(F(":"));
           if (gps.time.second() < 10) Serial.print(F("0"));
-            Serial.print(gps.time.second());*/
+            Serial.print(gps.time.second());
 
           Serial.print(", HDOP:");
           Serial.println(gps.hdop.hdop());

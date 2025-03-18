@@ -28,16 +28,16 @@ void setup() {
 
 #include "Functions.h";
 void loop() {
-  //check_bat_volt();
+  check_bat_volt();
   //get_gps_data();
   power_peripheral(1);
   read_pH_and_EC();
   read_TRBDT();
   read_temp();
-  //write2SD();
+  write2SD();
   //transmit();
   power_peripheral(0);
 
-  delay(1000);
+  delay(26000);
   
 }
