@@ -108,21 +108,6 @@ void write2SD(){
   }
 }
 
-void read_frm_SD(){
-  myFile = SD.open("test.txt");
-  if (myFile) {
-    // read from the file until there's nothing else in it:
-    while (myFile.available()) {
-      //Serial.write(myFile.read());
-    }
-    // close the file:
-    myFile.close();
-  } else {
-    // if the file didn't open, print an error:
-    //Serial.println("error opening test.txt");
-    error_loop();
-  }
-}
 
 void transmit(){
   if (!radio.begin()) {

@@ -29,10 +29,10 @@ void loop() {
   read_pH_and_EC();
   read_TRBDT();
   read_temp();
-  write2SD();
+  //write2SD();
   transmit();
   power_peripheral(0);
 
-  delay(1000);
+  delay(26000);
   
 }
