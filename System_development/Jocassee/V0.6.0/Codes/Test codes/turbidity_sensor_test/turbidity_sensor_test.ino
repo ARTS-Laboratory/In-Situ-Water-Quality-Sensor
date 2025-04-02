@@ -19,6 +19,8 @@ void loop() {
   // read the input on analog pin 0:
   digitalWrite(7,HIGH);
 
-  Serial.println(((-(analogRead(A7)*5.00)/1023.00)+3.71)/0.008);
+  Serial.print(((-(analogRead(A7)*5.00)/1023.00)+4.36)/0.008);
+  Serial.print("  /  ");
+  Serial.println((analogRead(A7)*5.00)/1023.00);
   delay(200);
   }
