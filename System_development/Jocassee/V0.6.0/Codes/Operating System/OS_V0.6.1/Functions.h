@@ -34,14 +34,14 @@ void read_pH_and_EC(){
   EC.send_read_cmd();
   delay(1000);
   EC.receive_read_cmd();
-  eC=EC.get_last_received_reading(); 
+  payload.eC=EC.get_last_received_reading(); 
   //Serial.print(eC);
   //Serial.print(" uS, ");
 
   PH.send_read_cmd(); 
   delay(1000);
   PH.receive_read_cmd();
-  pH=PH.get_last_received_reading(); 
+  payload.pH=PH.get_last_received_reading(); 
   //Serial.print(pH);
   //Serial.print(" , ");
 }
@@ -50,23 +50,23 @@ void read_pH_and_EC(){
 void read_temp(){
   temp_sensor.begin();
   temp_sensor.requestTemperatures();
-  temp = temp_sensor.getTempCByIndex(0);
-  if (temp == DEVICE_DISCONNECTED_C)
+  payload.temp = temp_sensor.getTempCByIndex(0);
+  if (payload.temp == DEVICE_DISCONNECTED_C)
   {
     //Serial.println("Error: Could not read temperature data");
     error_loop();
   }
-  //Serial.print(temp);
+  //Serial.print(payload.temp);
   //Serial.println("°C");
 }
 
 
 void read_TRBDT(){
-  turbidity = ((-(analogRead(TRBDT_pin)*5.0)/1023.0)+3.7)/0.008;
-  if(turbidity<0){ // due to to noise sometimes small negative values occur. 
-    turbidity = 0;
+  payload.turbidity = ((-(analogRead(TRBDT_pin)*5.0)/1023.0)+3.7)/0.008;
+  if(payload.turbidity<0){ // basically noise mitigation 
+    payload.turbidity = 0;
   }
-  //Serial.print(turbidity);
+  //Serial.print(payload.turbidity);
   //Serial.print(" NTU, ");
 }
 
@@ -93,13 +93,13 @@ void write2SD(){
     
     myFile.print(v_bat);
     myFile.print(",");
-    myFile.print(eC);
+    myFile.print(payload.eC);
     myFile.print(",");
-    myFile.print(pH);
+    myFile.print(payload.pH);
     myFile.print(",");
-    myFile.print(turbidity);
+    myFile.print(payload.turbidity);
     myFile.print(",");
-    myFile.println(temp);
+    myFile.println(payload.temp);
     myFile.close();
     delay(300);
   } else {
@@ -108,19 +108,24 @@ void write2SD(){
   }
 }
 
-
 void transmit(){
   if (!radio.begin()) {
     //Serial.println(F("radio hardware is not responding!!"));
     error_loop();
   }
-  radio.setPALevel(RF24_PA_LOW);
-  radio.setPayloadSize(10);
+  radio.setPALevel(RF24_PA_MAX);
+  radio.setPayloadSize(32);
   radio.openWritingPipe(address[0]);
   radio.openReadingPipe(1, address[1]); 
   radio.stopListening();
-  radio.write("Hello", sizeof(float));
+  
+  bool report = radio.write(&payload , sizeof(payload));
+
+  if(!report){
+    write2SD();
+  }
 }
+
 
 void get_gps_data(){
   Serial1.begin(9600);
@@ -164,8 +169,4 @@ void get_gps_data(){
     }
   }
   led(0,0);
-}
-
-void process_string(){
-
 }

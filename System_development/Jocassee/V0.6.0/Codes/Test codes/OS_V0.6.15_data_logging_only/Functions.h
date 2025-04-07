@@ -63,7 +63,7 @@ void read_temp(){
 
 
 void read_TRBDT(){
-  turbidity = ((-(analogRead(A7)*5.00)/1023.00)+4.36)/0.008;
+  turbidity = ((-(analogRead(A7)*5.00)/1023.00)+4.44)/0.008;
   if(turbidity<0){ // due to to noise sometimes small negative values occur. 
     turbidity = 0;
   }

@@ -40,15 +40,30 @@ Ezo_board EC = Ezo_board(100, "EC");      //create an EC circuit object who's ad
 #include <RF24.h>
 #include <RF24_config.h>
 RF24 radio(nRF_CE, nRF_CS);
-uint8_t address[][6] = { "1Node", "2Node" };
+uint8_t address[][6] = { "TNode", "RNode" }; //single node demo
 
 #include <SD.h>
 File myFile;
 
 //Declaring global variables
-float temp, pH, eC, turbidity;
-//float GPS_HDOP=99.00;
+
 float v_bat=6;
 
-char GPS_payload[32];
-char sensor_payload[32];
+struct payload_struct{
+
+  uint8_t month(); //1 byte
+  uint8_t day();   //1 byte
+  uint16_t year(); //2 byte
+  
+  uint8_t hour();  //1 byte
+  uint8_t minute();//1 byte
+  uint8_t second();//1 byte
+  
+  double lat();    //4 byte
+  double lng();    //4 byte
+  
+  float temp, pH, eC, turbidity; //16 bytes
+  
+};
+
+payload_struct payload; // total 31 bytes

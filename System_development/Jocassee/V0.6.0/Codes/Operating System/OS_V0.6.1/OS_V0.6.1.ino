@@ -29,7 +29,6 @@ void loop() {
   read_pH_and_EC();
   read_TRBDT();
   read_temp();
-  //write2SD();
   transmit();
   power_peripheral(0);
 
