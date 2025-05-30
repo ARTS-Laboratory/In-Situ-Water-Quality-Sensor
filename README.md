@@ -2,7 +2,7 @@
 An in situ water quality sensor for monitoring water quality from a UAV-deployable sensor package. The sensor packages provide real-time monitoring of pH, conductivity, temperature, and turbidity. 
 
 <p align="center">
-<img src="media/in_situ_sensor_June_2025.png" alt="drawing" width="700"/> <br> 
+<img src="media/june_2025.png" alt="drawing" width="700"/> <br> 
 UAV deployment mechanism as of June 2025.
 </p>
 <p align="center">
