@@ -3574,7 +3574,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000643a30b9")
 		(property "Reference" "A1"
-			(at 154.94 125.4506 0)
+			(at 146.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3582,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_v3.x"
-			(at 154.94 127.762 0)
+			(at 155.448 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3726,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000643a4815")
 		(property "Reference" "U6"
-			(at 210.82 134.3406 0)
+			(at 209.296 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +3734,7 @@
 			)
 		)
 		(property "Value" "DS3231M"
-			(at 210.82 136.652 0)
+			(at 200.914 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4678,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 247.65 96.1136 90)
 			(effects
 				(font
@@ -4803,7 +4803,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006440012b")
 		(property "Reference" "BT1"
-			(at 214.63 113.157 90)
+			(at 217.424 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4811,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 214.63 110.8456 90)
+			(at 218.948 110.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +4944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.607 127.5842 0)
+			(at 159.512 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5009,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 155.067 127.5842 0)
+			(at 153.416 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 129.921 51.943 0)
 			(effects
 				(font
@@ -5273,7 +5273,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "470"
 			(at 115.57 60.5536 90)
 			(effects
 				(font
