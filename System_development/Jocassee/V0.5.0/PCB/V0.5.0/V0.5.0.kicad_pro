@@ -614,7 +614,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Final_Design2.net",
-      "plot": "",
+      "plot": "Gerber Files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

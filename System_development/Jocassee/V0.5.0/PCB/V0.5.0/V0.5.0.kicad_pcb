@@ -65,9 +65,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber Files/")
 		)
 	)
 	(net 0 "")
@@ -1486,7 +1486,7 @@
 			)
 		)
 		(property "Value" "Temp"
-			(at -9.1 2 0)
+			(at -14.3 4.5 -90)
 			(layer "F.SilkS")
 			(uuid "e75fa6ca-6727-4d94-8c77-0f22fc7c4936")
 			(effects
@@ -1852,7 +1852,7 @@
 	(footprint "WATER_SENSOR:uofsc_logo_1in"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00006450c510")
-		(at 113.5 103.6)
+		(at 111 102)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -5066,6 +5066,19 @@
 		(layer "Edge.Cuts")
 		(uuid "7e15c4b3-3b1c-4dfc-ab61-9b89b9728461")
 	)
+	(gr_text "Micro SD card"
+		(at 113.5 103.6 -0)
+		(layer "B.SilkS")
+		(uuid "f1cb2fa7-24e8-49e6-a40f-3707fa3181f6")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "#"
 		(at 116.9 36.5 180)
 		(layer "B.SilkS")
@@ -5123,13 +5136,25 @@
 		)
 	)
 	(gr_text "Joud Satme"
-		(at 113.324878 118.39123 0)
+		(at 110.924878 116.99123 0)
 		(layer "F.SilkS")
 		(uuid "4ff9b773-b8f6-4be8-9946-c2efb55633e6")
 		(effects
 			(font
 				(size 0.9 0.9)
 				(thickness 0.2)
+			)
+		)
+	)
+	(gr_text "Arduino Nano"
+		(at 106.99 53.55 90)
+		(layer "F.SilkS")
+		(uuid "59cb745e-876d-4885-b7ff-81fd650033d9")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
@@ -5156,7 +5181,7 @@
 		)
 	)
 	(gr_text "Matthew Burnett"
-		(at 113 114 0)
+		(at 110.6 112.6 0)
 		(layer "F.SilkS")
 		(uuid "797c4edb-3e0c-4ca0-8202-ca8ffd789164")
 		(effects
@@ -5167,7 +5192,7 @@
 		)
 	)
 	(gr_text "In-Situ Water Quality Sensor"
-		(at 116.3 112.7 0)
+		(at 113.9 111.3 0)
 		(layer "F.SilkS")
 		(uuid "79d3d3ce-24ca-4eea-8c5c-e3c5d8f21c07")
 		(effects
@@ -5178,7 +5203,7 @@
 		)
 	)
 	(gr_text "V0.5.0\\"
-		(at 103.721423 112.584747 0)
+		(at 101.321423 111.184747 0)
 		(layer "F.SilkS")
 		(uuid "9dea27c2-052a-4984-8588-ba283438bb0f")
 		(effects
@@ -5189,7 +5214,7 @@
 		)
 	)
 	(gr_text "Antonio Fonce"
-		(at 112.424878 116.89123 0)
+		(at 110.024878 115.49123 0)
 		(layer "F.SilkS")
 		(uuid "a8a9565c-8a8f-448e-8c7b-7cd055bf1ec0")
 		(effects
@@ -5211,7 +5236,7 @@
 		)
 	)
 	(gr_text "Mohamed Abdelwahab"
-		(at 113.724878 115.49123 0)
+		(at 111.324878 114.09123 0)
 		(layer "F.SilkS")
 		(uuid "cf14f491-cf48-4ce8-8670-c148265cfe57")
 		(effects
@@ -5245,7 +5270,7 @@
 		)
 	)
 	(gr_text "Arts Lab"
-		(at 112.4 110.9 0)
+		(at 110 109.5 0)
 		(layer "F.SilkS")
 		(uuid "f5668099-f313-4a9f-b5ff-8417fff3a395")
 		(effects
