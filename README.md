@@ -58,7 +58,7 @@ Cite this data as:
 #### Bibtex
 
 @Misc{ARTSLabSituWaterQuality,    
-  author = {ARTS-Lab},  
+  author = {{ARTS-L}ab},  
   howpublished = {GitHub},  
   title  = {In-Situ-Water-Quality-Sensor},  
   groups = {ARTS-Lab},    
