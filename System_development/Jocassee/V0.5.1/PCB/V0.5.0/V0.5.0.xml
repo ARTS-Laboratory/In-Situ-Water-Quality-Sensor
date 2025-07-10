@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\track\OneDrive\Documents\In-Situ-Water-Quality-Sensor\System_development\Jocassee\V0.4.6\PCB_Design\V0.1.kicad_sch</source>
+    <date>2024-06-13T09:34:58-0400</date>
+    <tool>Eeschema 8.0.3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>V0.1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB"/>
+      <property name="ki_fp_filters" value="Arduino*Nano*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643a30b9</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>WATER_SENSOR:battery_holder_10mm</footprint>
+      <fields>
+        <field name="Footprint">WATER_SENSOR:battery_holder_10mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006440012b</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064502f41</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064507651</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643e94c3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006450e652</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>water_Battery</value>
+      <footprint>WATER_SENSOR:Battery_Input</footprint>
+      <fields>
+        <field name="Footprint">WATER_SENSOR:Battery_Input</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="V0.1-rescue" part="water_Battery-WATER_SENSOR-cache" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643ae3e5</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SD</value>
+      <footprint>WATER_SENSOR:SD</footprint>
+      <fields>
+        <field name="Footprint">WATER_SENSOR:SD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="V0.1-rescue" part="SD-water" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643aa382</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>switch</value>
+      <footprint>WATER_SENSOR:grounded_switch</footprint>
+      <fields>
+        <field name="Footprint">WATER_SENSOR:grounded_switch</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="V0.1-rescue" part="switch-water" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643ae956</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>Sensor</value>
+      <footprint>WATER_SENSOR:phraails</footprint>
+      <fields>
+        <field name="Footprint">WATER_SENSOR:phraails</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="V0.1-rescue" part="Sensor-WATER_SENSOR-cache" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643ad7ba</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>Sensor</value>
+      <footprint>WATER_SENSOR:TDS</footprint>
+      <fields>
+        <field name="Footprint">WATER_SENSOR:TDS</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="V0.1-rescue" part="Sensor-WATER_SENSOR-cache" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643b0939</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>DS3231M</value>
+      <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Timer_RTC" part="DS3231M" description="Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <property name="ki_keywords" value="RTC TCXO Realtime Time Clock Crystal Oscillator I2C"/>
+      <property name="ki_fp_filters" value="SOIC*7.5x10.3mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643a4815</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>Sensor</value>
+      <footprint>WATER_SENSOR:Turbidity</footprint>
+      <fields>
+        <field name="Footprint">WATER_SENSOR:Turbidity</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="V0.1-rescue" part="Sensor-WATER_SENSOR-cache" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643b0dc3</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>Temp</value>
+      <footprint>WATER_SENSOR:Temp.</footprint>
+      <fields>
+        <field name="Footprint">WATER_SENSOR:Temp.</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="V0.1-rescue" part="Temp-WATER_SENSOR-cache" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="V0.1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000643b29df</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</field>
+        <field name="Description">Arduino Nano v3.x</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer_RTC" part="DS3231M">
+      <description>Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231M</field>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</field>
+        <field name="Description">Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="open_collector"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~{INT}/SQW" type="open_collector"/>
+        <pin num="4" name="~{RST}" type="bidirectional"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBAT" type="power_in"/>
+        <pin num="15" name="SDA" type="bidirectional"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="V0.1-rescue" part="SD-water">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">water_SD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V" type="input"/>
+        <pin num="2" name="CS" type="input"/>
+        <pin num="3" name="Mosi" type="input"/>
+        <pin num="4" name="CLK" type="input"/>
+        <pin num="5" name="Miso" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="V0.1-rescue" part="Sensor-WATER_SENSOR-cache">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WATER_SENSOR-cache_Sensor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="V0.1-rescue" part="Temp-WATER_SENSOR-cache">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WATER_SENSOR-cache_Temp</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Gnd" type="input"/>
+        <pin num="2" name="5V" type="input"/>
+        <pin num="3" name="D" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="V0.1-rescue" part="switch-water">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">water_switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="X" type="input"/>
+        <pin num="2" name="PI" type="input"/>
+        <pin num="3" name="PO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="V0.1-rescue" part="water_Battery-WATER_SENSOR-cache">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WATER_SENSOR-cache_water_Battery</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Power" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Timer_RTC">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Timer_RTC.kicad_sym</uri>
+    </library>
+    <library logical="V0.1-rescue">
+      <uri>C:\Users\track\OneDrive\Documents\In-Situ-Water-Quality-Sensor\System_development\Jocassee\V0.4.6\PCB_Design/V0.1-rescue.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="Gnd" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U6" pin="10" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="Gnd" pintype="input"/>
+    </net>
+    <net code="2" name="Net-(A1-+5V)">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="+" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="+" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="+" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="5V" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(A1-3V3)">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="3V" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(A1-A0)">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(A1-A1)">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(A1-A4)">
+      <node ref="A1" pin="23" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="U6" pin="15" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(A1-A5)">
+      <node ref="A1" pin="24" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="U6" pin="16" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(A1-A7)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="U7" pin="3" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(A1-D5)">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(A1-D7)">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(A1-D10)">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(A1-D11)">
+      <node ref="A1" pin="14" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="Mosi" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(A1-D12)">
+      <node ref="A1" pin="15" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="Miso" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(A1-D13)">
+      <node ref="A1" pin="16" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(A1-VIN)">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="PO" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="17" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U1-Power)">
+      <node ref="U1" pin="1" pinfunction="Power" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="PI" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(A1-A2-Pad21)">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(A1-A3-Pad22)">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(A1-A6-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(A1-AREF-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(A1-D0{slash}RX-Pad2)">
+      <node ref="A1" pin="2" pinfunction="D0/RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(A1-D1{slash}TX-Pad1)">
+      <node ref="A1" pin="1" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(A1-D2-Pad5)">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(A1-D3-Pad6)">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(A1-D4-Pad7)">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A1-D6-Pad9)">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(A1-D8-Pad11)">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(A1-D9-Pad12)">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(A1-~{RESET}-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(A1-~{RESET}-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U3-X-Pad1)">
+      <node ref="U3" pin="1" pinfunction="X" pintype="input+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U6-32KHZ-Pad1)">
+      <node ref="U6" pin="1" pinfunction="32KHZ" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U6-~{INT}{slash}SQW-Pad3)">
+      <node ref="U6" pin="3" pinfunction="~{INT}/SQW" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U6-~{RST}-Pad4)">
+      <node ref="U6" pin="4" pinfunction="~{RST}" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
