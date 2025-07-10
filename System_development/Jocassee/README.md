@@ -55,7 +55,7 @@ An in situ water quality sensor for monitoring water quality
 8. Added a Bill of Matirials
 
 ## V 0.5.0
-Version of Refrence for "UAV-Deployable Sensor Nodes for Spatial and Temporal In-Situ Water Quality Monitoring and Mapping", Burnett et al. 2025
+### Version of Refrence for "UAV-Deployable Sensor Nodes for Spatial and Temporal In-Situ Water Quality Monitoring and Mapping", Burnett et al. 2025
  1. Minor changes to chassis to more densly pack the sensors
  2. Minor Buoy/drop mechanism design revisions
  3. Minor changes to PCB mounting screw holes
