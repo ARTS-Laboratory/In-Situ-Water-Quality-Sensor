@@ -61,6 +61,9 @@ An in situ water quality sensor for monitoring water quality
  3. Minor changes to PCB mounting screw holes
 ![sensor_package_2025](https://github.com/user-attachments/assets/e8ce5730-7be3-43a4-8c8d-c7c84517157f)
 
+## V 0.5.1
+### Usability upgrades on V 0.5.0
+    
 ## V 0.6.0
 1. Updated PCB design including GPS, wireless module and latest compact signal conditioning boards for pH & TDS sensing.
 2. Includes an easily dettachable solar buoy for increased operational endurance.
