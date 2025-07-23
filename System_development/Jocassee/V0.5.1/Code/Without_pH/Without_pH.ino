@@ -55,8 +55,6 @@ void loop() {
 
   delay(3000);                      // Delay before measurements
   
-  // Create DallasTemperature instance for temperature sensor
-  DallasTemperature tempSensor(&oneWire);
   tempSensor.requestTemperatures(); // Request temperature readings
   tempCelsius = tempSensor.getTempCByIndex(0);  // Read temperature in Celsius
   gravityTds.setTemperature(tempCelsius);  // Set temperature for TDS sensor compensation

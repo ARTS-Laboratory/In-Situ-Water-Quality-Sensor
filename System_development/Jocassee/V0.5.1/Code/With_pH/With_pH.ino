@@ -54,7 +54,7 @@ void setup() {
 
   if (!SD.begin(SD_CS)) {           // Initialize SD card
     Serial.println(F("SD card init failed!"));  // Print error message if initialization fails
-    while (true);                   // Hang indefinitely
+    //while (true);                   // Hang indefinitely
   }
   Serial.println(F("SD card init."));  // Print message if SD card initialized successfully
 }
