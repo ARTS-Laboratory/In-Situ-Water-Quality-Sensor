@@ -17,6 +17,7 @@ The first such design type is a clamshell style design, with a roof:
 
 The second design type is a clamshell style design, without a roof:
 
+
 <p align="center">
 <img src="media/clamshell no roof.png" alt="drawing" width="700"/> <br> 
 </p>
@@ -25,4 +26,10 @@ The third design type consists of non-clamshell style designs:
 
 <p align="center">
 <img src="media/non-clamshell designs.png" alt="drawing" width="700"/> <br> 
+</p>
+
+The fourth design type is a clamshell design that is not compatible with an eyebolt, and should be anchored with a rope tied around the buoy itself. These designs are found in the rope direct folder. Below is an example:
+
+<p align="center">
+<img src="media/image of rope direct buoy.png" alt="drawing" width="700"/> <br> 
 </p>
