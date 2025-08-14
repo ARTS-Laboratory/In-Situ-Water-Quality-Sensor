@@ -53,7 +53,7 @@ void loop() {
   char buffer[64];                  // Buffer to store GPS data line
   int bufferIndex = 0;              // Index for buffer
 
-  delay(5000);                      // Delay before measurements
+  delay(10000);                      // Delay before measurements
   
   tempSensor.requestTemperatures(); // Request temperature readings
   tempCelsius = tempSensor.getTempCByIndex(0);  // Read temperature in Celsius
