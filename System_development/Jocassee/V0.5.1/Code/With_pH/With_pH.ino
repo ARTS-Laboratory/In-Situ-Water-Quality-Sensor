@@ -76,7 +76,8 @@ void loop() {
   tdsValue = gravityTds.getTdsValue();  // Get TDS value
   
   // Read and map turbidity sensor value
-  float NTU = map(constrain(analogRead(A7), 0, 750), 0, 750, 100, 0);
+  float NTU = analogRead(A7);
+  //float NTU = volt2turb(turb_v);
   
   // Get current date and time from RTC
   DateTime now = rtc.now();
@@ -95,6 +96,11 @@ void loop() {
     }
   }
   
+}
+
+float volt2turb(float x){
+  return map(x, 4, 850, 100, 0);
+ 
 }
 
 // Function to log sensor data to SD card
