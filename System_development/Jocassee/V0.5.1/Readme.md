@@ -1,6 +1,6 @@
-## Instructions for the In-Situ Water Quality Sensor Deployment and RecoveryShape <br>
+## Instructions for the In-Situ Water Quality Sensor Deployment and Recovery <br>
 
-### Deployment <br>
+### Deployment- <br>
 
 * Upload the code and monitor the sensor readings. 
 
@@ -22,7 +22,7 @@
 
 * Mount the bottom cover. 
 
-### Recovery 
+### Recovery- 
 
 * Rinse the entire sensor package with tap water and wipe it dry. 
 
