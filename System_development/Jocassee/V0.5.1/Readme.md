@@ -1,6 +1,6 @@
-Instructions for the In-Situ Water Quality Sensor Deployment and RecoveryShape <br>
+## Instructions for the In-Situ Water Quality Sensor Deployment and RecoveryShape <br>
 
-Deployment <br>
+### Deployment <br>
 
 * Upload the code and monitor the sensor readings. 
 
@@ -22,7 +22,7 @@ Deployment <br>
 
 * Mount the bottom cover. 
 
-Recovery 
+### Recovery 
 
 * Rinse the entire sensor package with tap water and wipe it dry. 
 
@@ -42,4 +42,4 @@ Recovery
 
 * Check the recorded data. 
 
-Note: pH probe storage solution needs to be changed every 2 storage cycles.  
+### Note: pH probe storage solution needs to be changed every 2 storage cycles.  
